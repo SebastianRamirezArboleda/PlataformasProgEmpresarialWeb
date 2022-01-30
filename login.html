@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <title>Home</title>
+    <script lenguage="JavaScript" SRC="js/localS.js"></script>
+    <title>Log in</title>
 </head>
-<body>
+<body class=contenedorPrincipal>
+    <a href="index.html">Volver al home</a>
+    <div class = todo>
+        <main>
+            <div class = "contenedor__todo">
+
+                <div class = caja__trasera>
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesion para entrar en la pagina</p>
+                        <button id="btn__iniciar-sesion">Iniciar sesi&oacute;n</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿A&uacute;n no tienes una cuenta?</h3>
+                        <p>Reg&iacute;strate para entrar en la p&aacute;gina</p>
+                        <button id="btn__registrarse">Registrarse</button>
+                    </div>
+                </div>
+
+                <div class ="contenedor__login-register">
+                    <form class=formulario__login method="dialog">
+                        <H2>Iniciar sesion</H2>
+                        <input type="text" name="userName" placeholder="Usuario">
+                        <input type="password" name="password" placeholder="Contraseña">
+                        <input type="submit" name="submit" value="Ingresar" onclick="ingresarLocalS(this.form.userName.value, this.form.password.value);" >
+                    </form>
+                    <form class=formulario__register method="dialog">
+                        <H2>Registrarse</H2>
+                        <input type="email" name="email" placeholder="Correo Electronico">
+                        <input type="text" name="userName" placeholder="Usuario">
+                        <input type="password" name="password" placeholder="Contraseña">
+                        <input type="submit" name="submit" value="Registrarse" onclick="guardarLocalS(this.form.email.value, this.form.userName.value, this.form.password.value);">
+                    </form>
+                </div>
+            </div>
+            
+        </main>
+        <script lenguage="JavaScript" SRC="js/logicaDisegn.js"></script>
+        <CENTER>
+                <BR><A href="recordar.html">Click ac&aacute; por si se te olvid&oacute; la contrase&ntilde;a</A>
+        </CENTER>
+    </div>
 </body>
 </html>
