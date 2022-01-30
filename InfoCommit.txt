@@ -1,3 +1,0 @@
-Titulo:Se termina de implementar el css y el js
-
-Se crean los contenedores para el about,contacto,galeria, y se implementa el recordar y el login totalmente funcionales
