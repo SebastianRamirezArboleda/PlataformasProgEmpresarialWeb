@@ -1,3 +1,3 @@
-Titulo: Implementacion total About
+Titulo: Implementacion Total Contacto
 
-Se termina de implementar la caracteristica about, pero hay algo que solucionar con un boton
+la caracteristica contacto fue terminada como fue pedida
