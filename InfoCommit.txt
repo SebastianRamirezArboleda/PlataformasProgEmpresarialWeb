@@ -1,0 +1,3 @@
+Titulo:se implementa el js
+
+Se implementa el js, ahora hay que darle una interfaz en las caracteristicas recordar y login.
