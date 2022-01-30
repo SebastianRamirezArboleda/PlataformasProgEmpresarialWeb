@@ -1,3 +1,3 @@
-Titulo:Imagenes para el blog
+Titulo:Implementacion total Index(BLog)
 
-Se agregan mas imagenes para el blog, el cual es el resultado al completar el login
+Se termina de implementar la caracteristica de blog, para acceder a esta se debe de pasar un login el cual fue implementado para sustituir la caracteristica servicio
