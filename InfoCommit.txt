@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+=======
+Titulo:Arreglo color boton
+
+se terminaron de implementar la gran mayoria de lo pedido, pero en uno de los botones habia un color que no era el buscado.
+>>>>>>> main
